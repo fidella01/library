@@ -1,0 +1,128 @@
+/* General styles */
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  .container {
+    position: relative;
+    top: 0;
+  }
+  
+  /* Header styles */
+  .header {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .search-bar {
+    margin-right: 1rem;
+    width: 200px;
+  }
+  
+  .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  
+  /* Main content styles */
+  .main {
+    padding-top: 2rem;
+  }
+  
+  .nav-pills {
+    flex-wrap: nowrap; /* Prevent wrapping on small screens */
+    border-radius: 0.5rem;
+  }
+  
+  .nav-link.active {
+    background-color: #ddd;
+    color: #333;
+  }
+  .nav-links {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .card {
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    background-color: #f0f3f5;
+    padding: 0.75rem 1rem;
+  }
+  
+  .card-title {
+    margin-bottom: 0;
+  }
+  
+  /* Responsiveness adjustments */
+  @media (max-width: 768px) {
+    .col-md-3,
+    .col-md-9 {
+      flex: 1;
+    }
+  
+    .search-bar {
+      margin-right: 0;
+      width: 100%;
+    }
+  
+    .dropdown {
+      margin-top: 1rem;
+    }
+  }
+  form {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:hover,
+  input[type="number"]:hover {
+    border-color: #999;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  footer{
+    background-color: #f8f9fa;
+    width: 100%;
+  }
